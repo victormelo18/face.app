@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>faceapp.com</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- fiz uma pagina de login baseada na do facebook espero que goste!!!-->
+ <header>
+    <h1> faceapp</h1>
+ </header>
+
+    <form method="get" action="index.html">
+        <fieldset> 
+            <h2 class="conta">crie uma nova conta</h2>
+            <h5 class="facil">facil e rapido.</h5>
+                <input id="nome" name="nome" type="text" placeholder="nome" require > 
+                <input id="sobrenome" name="sobrenome" type="text" placeholder="sobrenome" required >
+                <input id="email" name="email" type="text" placeholder="telefone ou email" pattern="(\d{10,11}|\w+@\w+\.\w{2,3})" required name="">
+            <label id="niver-config"> aniversario</label>
+                <input id="niver" name="aniversario" type="date" required minlength="18">
+            <label id="genero">genero</label>
+                <div id="genero-op">
+                    <input id="feminino" type="radio" name="sexo" value="feminino" required> Feminino
+                    <input id="masculino" type="radio" name="sexo" value="masculino" required> Masculino
+                    <input id="outro" type="radio" name="sexo" value="outro" required> Outro
+                </div>
+            <footer>
+                    <p>Pessoas que utilizam nosso serviço podem ter enviado suas informações de contato para o faceapp.<a href="mais.html" saiba mais ></a>
+                        Ao clicar em Inscrever-se, você concorda com nossos <a href="termos.html"> Termos, Política de Privacidade </a>  e <a href="cookies.html"> Política de Cookies </a></p>
+                    <p>
+                    Você pode receber notificações por SMS de nossa parte e pode optar por não recebê-las a qualquer momento.
+                    </p>
+            </footer>
+            
+                <input id="button" type="submit"> 
+        </fieldset>
+    </form>
+  
+
+</body>
+</html>
